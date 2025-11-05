@@ -34,7 +34,7 @@ export default function Layout({ children }: LayoutProps) {
                 <img 
                   src={stackopsLogo} 
                   alt="StackOps Logo" 
-                  className="h-10 w-auto"
+                  className="h-14 w-auto"
                 />
               </Link>
             </div>
