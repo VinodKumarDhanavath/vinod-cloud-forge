@@ -31,7 +31,7 @@ export default function Layout({ children }: LayoutProps) {
             <div className="flex items-center">
               <Link to="/" className="flex items-center space-x-2 text-xl font-bold text-gradient">
                 <Code className="w-6 h-6 text-primary" />
-                <span>Vinod Dhanavath</span>
+                <span>TheStackOps.ink</span>
               </Link>
             </div>
 
@@ -109,7 +109,7 @@ export default function Layout({ children }: LayoutProps) {
         <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-muted-foreground">
-              © 2025 Vinod Dhanavath. Built with precision and passion for DevOps excellence.
+              © 2025 TheStackOps.ink. Built with precision and passion for DevOps excellence.
             </p>
           </div>
         </div>
