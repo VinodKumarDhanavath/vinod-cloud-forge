@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Code, Cloud, User, Briefcase, FolderOpen, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
+import stackopsLogo from '@/assets/stackops-logo.png';
 
 const navigationItems = [
   { name: 'Home', href: '/', icon: Code },
@@ -29,9 +30,12 @@ export default function Layout({ children }: LayoutProps) {
           <div className="flex justify-between h-16">
             {/* Logo */}
             <div className="flex items-center">
-              <Link to="/" className="flex items-center space-x-2 text-xl font-bold text-gradient">
-                <Code className="w-6 h-6 text-primary" />
-                <span>TheStackOps.ink</span>
+              <Link to="/" className="flex items-center">
+                <img 
+                  src={stackopsLogo} 
+                  alt="StackOps Logo" 
+                  className="h-10 w-auto"
+                />
               </Link>
             </div>
 
