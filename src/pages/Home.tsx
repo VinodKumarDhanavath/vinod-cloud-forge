@@ -21,7 +21,7 @@ export default function Home() {
                 DevSecOps Engineer | Cloud & DevOps Specialist | Data Analytics Professional
               </h2>
               
-              <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+              <p className="text-lg text-foreground/90 mb-8 leading-relaxed font-medium">
                 Building scalable, secure, and cost-efficient cloud solutions with 9+ years of experience 
                 in DevOps, cloud architecture, and data analytics. Passionate about automation, 
                 compliance, and driving digital transformation.
